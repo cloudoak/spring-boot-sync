@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  banner:
+    charset: UTF-8
+    image:
+      location: banner/deer_horns_moon_stars.jpg
+      width: 76
+      margin: 2
+      invert: false
+server:
+  port: 8999
+  tomcat:
+    uri-encoding: UTF-8
+
+logging:
+  level:
+    root: DEBUG
