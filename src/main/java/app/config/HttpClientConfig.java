@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "spring.lenovo.http")
+@ConfigurationProperties(prefix = "spring.boot.http")
 public class HttpClientConfig {
 
     private String [] uris;
